@@ -5,6 +5,22 @@
 [![License](https://img.shields.io/cocoapods/l/ViewHover.svg?style=flat)](https://cocoapods.org/pods/ViewHover)
 [![Platform](https://img.shields.io/cocoapods/p/ViewHover.svg?style=flat)](https://cocoapods.org/pods/ViewHover)
 
+## Usage
+
+```swift
+  /// add view hover effects
+  hoverView.hoverEffects(.background(color: .red), .cornerRadius(10))
+
+  /// add hover event listenner
+  hoverView.onHover { hover in
+      if hover {
+          print("mouse hover on view: \(hover)")
+      } else {
+          print("mouse hover on view: \(hover)")
+      }
+  } 
+```
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
