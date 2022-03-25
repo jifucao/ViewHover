@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ViewHover_Example' do
+  pod 'ViewHover', :path => '../'
+
+  target 'ViewHover_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
