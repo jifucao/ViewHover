@@ -1,0 +1,6 @@
+framework module ViewHover {
+  umbrella header "ViewHover-umbrella.h"
+
+  export *
+  module * { export * }
+}

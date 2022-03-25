@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24B81569B35666DE8E3E358879485026 /* MouseTrackable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087735CD82B1B275D7ACB0389163D621 /* MouseTrackable.swift */; };
+		3138D38B062942B5395429B882A0B3C7 /* Pods-ViewHover_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02923D609D05D006DB2559FECA6BF73F /* Pods-ViewHover_Tests-dummy.m */; };
+		3B6C15319F0AE8112DB9CAD72D12CFF8 /* Pods-ViewHover_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EC4623C375ECAAF663C8C45387CEEE7 /* Pods-ViewHover_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		480F24B9F0255CC1A1B2BEE8F9762EE4 /* Pods-ViewHover_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAE8E68D8AAAC045968F44E0389E98 /* Pods-ViewHover_Example-dummy.m */; };
+		49F5227EE0A266C5EB6F3965A7DE56E7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		8576BFD56F51E7DF225330F1113E6057 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		A57B90E349DE2E8EE053863DE0728E4B /* ViewHover-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0A17BD4315BF86699777A0C7E44B59 /* ViewHover-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABE34BCB72AF1A6AA47F45F972EEAD57 /* Pods-ViewHover_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E63A0E8DDA0F1FBB8F2F1B7993E21DE9 /* Pods-ViewHover_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B598E566308B837F6C0F8A37472996FE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		CD18EED89B50F0E66C2A6DE53E355E8C /* NSView+Hover.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92533D705D42BD6FDA11375952D47BD /* NSView+Hover.swift */; };
+		CFEB846B8F35D666F08E2BFC8282815A /* ViewHover-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A18C5F53C1183D8150F5A1A8BF9AE /* ViewHover-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1231B968731296A8271DDD25B8706436 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E8B98AF889BEC32CA527BF4BA3E63F1;
+			remoteInfo = "Pods-ViewHover_Example";
+		};
+		A20F1AEFFB95B4CC8AB76E26A830BF1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1510F1229B855A513CA72C6C47631471;
+			remoteInfo = ViewHover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02923D609D05D006DB2559FECA6BF73F /* Pods-ViewHover_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ViewHover_Tests-dummy.m"; sourceTree = "<group>"; };
+		03D9AB72D13CFB5090C833DF0A8A86B1 /* Pods-ViewHover_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViewHover_Example.release.xcconfig"; sourceTree = "<group>"; };
+		087735CD82B1B275D7ACB0389163D621 /* MouseTrackable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MouseTrackable.swift; path = ViewHover/Classes/MouseTrackable.swift; sourceTree = "<group>"; };
+		0FB2E8EA2EB73E4255A74C70CAF405B8 /* ViewHover-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewHover-prefix.pch"; sourceTree = "<group>"; };
+		129E920492849D9F8E77A509896A4934 /* Pods-ViewHover_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViewHover_Tests-Info.plist"; sourceTree = "<group>"; };
+		138A319CAF5735F344585207927041EA /* ViewHover */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ViewHover; path = ViewHover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		157649305824E3AF94F0C22FA219BE1A /* Pods-ViewHover_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ViewHover_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19C314D63E18674102AF179DED1E8C47 /* Pods-ViewHover_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViewHover_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F0A17BD4315BF86699777A0C7E44B59 /* ViewHover-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewHover-umbrella.h"; sourceTree = "<group>"; };
+		3BAAE8E68D8AAAC045968F44E0389E98 /* Pods-ViewHover_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ViewHover_Example-dummy.m"; sourceTree = "<group>"; };
+		46FFCE269A9933AA518121E160CEF80F /* ViewHover-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ViewHover-Info.plist"; sourceTree = "<group>"; };
+		4D56136657FEABB51DD3E16F042DD33A /* Pods-ViewHover_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViewHover_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4EC4623C375ECAAF663C8C45387CEEE7 /* Pods-ViewHover_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ViewHover_Tests-umbrella.h"; sourceTree = "<group>"; };
+		53E7CC943EE3EB857A7DCE18FDAB36D8 /* Pods-ViewHover_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViewHover_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		54E9481E5E5BAF46B978B70D3C90D891 /* Pods-ViewHover_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ViewHover_Example.modulemap"; sourceTree = "<group>"; };
+		5823595784128987CBDBCE4DA92B0E38 /* Pods-ViewHover_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ViewHover_Tests"; path = Pods_ViewHover_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E3BDA3D52C3897E070378A3AE46294 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7E2A18C5F53C1183D8150F5A1A8BF9AE /* ViewHover-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ViewHover-dummy.m"; sourceTree = "<group>"; };
+		8410D9E4CBD7B6131F6FA7306BDC72A4 /* Pods-ViewHover_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ViewHover_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9C4B8419A02C08CDD7B526FD5103EEE8 /* Pods-ViewHover_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ViewHover_Example"; path = Pods_ViewHover_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F20C7A714AA0CB86ED3722494FB4EDF /* Pods-ViewHover_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ViewHover_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A5ADFF49A23F2B69C423E124CC7D1957 /* Pods-ViewHover_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViewHover_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A915F8196798BC9E5E2E5CA15FE91A87 /* ViewHover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ViewHover.release.xcconfig; sourceTree = "<group>"; };
+		BD26DD297A91DF6EA3659AE191E983AB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		C17E0DC244D2948BF55CD41D472EEB03 /* Pods-ViewHover_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ViewHover_Tests.modulemap"; sourceTree = "<group>"; };
+		CDE5C55424B7FACEB1C3EB91835F4637 /* ViewHover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ViewHover.debug.xcconfig; sourceTree = "<group>"; };
+		E5EA27B53EF3DB7EAF354C9ADF66A283 /* ViewHover.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ViewHover.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E63A0E8DDA0F1FBB8F2F1B7993E21DE9 /* Pods-ViewHover_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ViewHover_Example-umbrella.h"; sourceTree = "<group>"; };
+		E92533D705D42BD6FDA11375952D47BD /* NSView+Hover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSView+Hover.swift"; path = "ViewHover/Classes/NSView+Hover.swift"; sourceTree = "<group>"; };
+		F00F45AC99020F381707323F72B93676 /* Pods-ViewHover_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViewHover_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F837F27C5DB96F5395DEF97F50A3C5E2 /* ViewHover.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ViewHover.modulemap; sourceTree = "<group>"; };
+		FDECBDE96B12F5D237F4C388FA39A9C1 /* Pods-ViewHover_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViewHover_Example-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25D3062F9C30FEE71DB9C6C53F2B6160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B598E566308B837F6C0F8A37472996FE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D93072908FA9FA374E2E68ADF2129EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F5227EE0A266C5EB6F3965A7DE56E7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87165DEF4F21229F4CCE93DDEFBF1B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8576BFD56F51E7DF225330F1113E6057 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AE13DACD2C10458BD2D6A21E7528201 /* ViewHover */ = {
+			isa = PBXGroup;
+			children = (
+				087735CD82B1B275D7ACB0389163D621 /* MouseTrackable.swift */,
+				E92533D705D42BD6FDA11375952D47BD /* NSView+Hover.swift */,
+				68226EC9298DE2C2305602F72B1A81C9 /* Pod */,
+				B19F55327F37F79A6E64A83B27E8CA53 /* Support Files */,
+			);
+			name = ViewHover;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6207AB1F767D64268BB25406A9B55295 /* Pods-ViewHover_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C17E0DC244D2948BF55CD41D472EEB03 /* Pods-ViewHover_Tests.modulemap */,
+				157649305824E3AF94F0C22FA219BE1A /* Pods-ViewHover_Tests-acknowledgements.markdown */,
+				4D56136657FEABB51DD3E16F042DD33A /* Pods-ViewHover_Tests-acknowledgements.plist */,
+				02923D609D05D006DB2559FECA6BF73F /* Pods-ViewHover_Tests-dummy.m */,
+				129E920492849D9F8E77A509896A4934 /* Pods-ViewHover_Tests-Info.plist */,
+				4EC4623C375ECAAF663C8C45387CEEE7 /* Pods-ViewHover_Tests-umbrella.h */,
+				19C314D63E18674102AF179DED1E8C47 /* Pods-ViewHover_Tests.debug.xcconfig */,
+				53E7CC943EE3EB857A7DCE18FDAB36D8 /* Pods-ViewHover_Tests.release.xcconfig */,
+			);
+			name = "Pods-ViewHover_Tests";
+			path = "Target Support Files/Pods-ViewHover_Tests";
+			sourceTree = "<group>";
+		};
+		65E5D5862165207CBBC662131F3CC09F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AE13DACD2C10458BD2D6A21E7528201 /* ViewHover */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		68226EC9298DE2C2305602F72B1A81C9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				58E3BDA3D52C3897E070378A3AE46294 /* LICENSE */,
+				BD26DD297A91DF6EA3659AE191E983AB /* README.md */,
+				E5EA27B53EF3DB7EAF354C9ADF66A283 /* ViewHover.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7AC99F9D0E1E1AE1A50C1306A25AF52F /* Pods-ViewHover_Example */ = {
+			isa = PBXGroup;
+			children = (
+				54E9481E5E5BAF46B978B70D3C90D891 /* Pods-ViewHover_Example.modulemap */,
+				8410D9E4CBD7B6131F6FA7306BDC72A4 /* Pods-ViewHover_Example-acknowledgements.markdown */,
+				F00F45AC99020F381707323F72B93676 /* Pods-ViewHover_Example-acknowledgements.plist */,
+				3BAAE8E68D8AAAC045968F44E0389E98 /* Pods-ViewHover_Example-dummy.m */,
+				9F20C7A714AA0CB86ED3722494FB4EDF /* Pods-ViewHover_Example-frameworks.sh */,
+				FDECBDE96B12F5D237F4C388FA39A9C1 /* Pods-ViewHover_Example-Info.plist */,
+				E63A0E8DDA0F1FBB8F2F1B7993E21DE9 /* Pods-ViewHover_Example-umbrella.h */,
+				A5ADFF49A23F2B69C423E124CC7D1957 /* Pods-ViewHover_Example.debug.xcconfig */,
+				03D9AB72D13CFB5090C833DF0A8A86B1 /* Pods-ViewHover_Example.release.xcconfig */,
+			);
+			name = "Pods-ViewHover_Example";
+			path = "Target Support Files/Pods-ViewHover_Example";
+			sourceTree = "<group>";
+		};
+		7C36F1420BD323FC71D9EEF6ED04542D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AC99F9D0E1E1AE1A50C1306A25AF52F /* Pods-ViewHover_Example */,
+				6207AB1F767D64268BB25406A9B55295 /* Pods-ViewHover_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B19F55327F37F79A6E64A83B27E8CA53 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F837F27C5DB96F5395DEF97F50A3C5E2 /* ViewHover.modulemap */,
+				7E2A18C5F53C1183D8150F5A1A8BF9AE /* ViewHover-dummy.m */,
+				46FFCE269A9933AA518121E160CEF80F /* ViewHover-Info.plist */,
+				0FB2E8EA2EB73E4255A74C70CAF405B8 /* ViewHover-prefix.pch */,
+				2F0A17BD4315BF86699777A0C7E44B59 /* ViewHover-umbrella.h */,
+				CDE5C55424B7FACEB1C3EB91835F4637 /* ViewHover.debug.xcconfig */,
+				A915F8196798BC9E5E2E5CA15FE91A87 /* ViewHover.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ViewHover";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				65E5D5862165207CBBC662131F3CC09F /* Development Pods */,
+				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				E86A5988DFD12D5894EBE272ACAD24E7 /* Products */,
+				7C36F1420BD323FC71D9EEF6ED04542D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		E86A5988DFD12D5894EBE272ACAD24E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C4B8419A02C08CDD7B526FD5103EEE8 /* Pods-ViewHover_Example */,
+				5823595784128987CBDBCE4DA92B0E38 /* Pods-ViewHover_Tests */,
+				138A319CAF5735F344585207927041EA /* ViewHover */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		26F893333EE4BA09D37AC52E77FEFD22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6C15319F0AE8112DB9CAD72D12CFF8 /* Pods-ViewHover_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D865A68E2E1686DF345383357B4745 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57B90E349DE2E8EE053863DE0728E4B /* ViewHover-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42D70462BAFD05B432F2FB97EA3AB7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE34BCB72AF1A6AA47F45F972EEAD57 /* Pods-ViewHover_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1510F1229B855A513CA72C6C47631471 /* ViewHover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 129E674DF129DF23265E91226A1F29F2 /* Build configuration list for PBXNativeTarget "ViewHover" */;
+			buildPhases = (
+				84D865A68E2E1686DF345383357B4745 /* Headers */,
+				B2063781FDAF7BFAD92BAABAC13BF32B /* Sources */,
+				2D93072908FA9FA374E2E68ADF2129EA /* Frameworks */,
+				C5B6393669FCD48F82160304413E5EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewHover;
+			productName = ViewHover;
+			productReference = 138A319CAF5735F344585207927041EA /* ViewHover */;
+			productType = "com.apple.product-type.framework";
+		};
+		2E8B98AF889BEC32CA527BF4BA3E63F1 /* Pods-ViewHover_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA51860D28315A01D3250C46968BEF7 /* Build configuration list for PBXNativeTarget "Pods-ViewHover_Example" */;
+			buildPhases = (
+				C42D70462BAFD05B432F2FB97EA3AB7B /* Headers */,
+				B497D90E0DA43F5547AF55ED9B606032 /* Sources */,
+				25D3062F9C30FEE71DB9C6C53F2B6160 /* Frameworks */,
+				51AF433946AEABAFDC2F42820FEE9A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1DDDE986280046FCFBA4161B4F0A014 /* PBXTargetDependency */,
+			);
+			name = "Pods-ViewHover_Example";
+			productName = Pods_ViewHover_Example;
+			productReference = 9C4B8419A02C08CDD7B526FD5103EEE8 /* Pods-ViewHover_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC6D76CDB583399727F07A35971CA4AE /* Pods-ViewHover_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3E236241FA27123C329B531B0B637C0 /* Build configuration list for PBXNativeTarget "Pods-ViewHover_Tests" */;
+			buildPhases = (
+				26F893333EE4BA09D37AC52E77FEFD22 /* Headers */,
+				4AC9EA71FED1CED39D435505EAFC4CCF /* Sources */,
+				87165DEF4F21229F4CCE93DDEFBF1B17 /* Frameworks */,
+				DAA71A6AAFE2C618AB0223C97974D7D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73175DBB947EECDE2E873FED29B6C86F /* PBXTargetDependency */,
+			);
+			name = "Pods-ViewHover_Tests";
+			productName = Pods_ViewHover_Tests;
+			productReference = 5823595784128987CBDBCE4DA92B0E38 /* Pods-ViewHover_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E86A5988DFD12D5894EBE272ACAD24E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E8B98AF889BEC32CA527BF4BA3E63F1 /* Pods-ViewHover_Example */,
+				FC6D76CDB583399727F07A35971CA4AE /* Pods-ViewHover_Tests */,
+				1510F1229B855A513CA72C6C47631471 /* ViewHover */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51AF433946AEABAFDC2F42820FEE9A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B6393669FCD48F82160304413E5EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA71A6AAFE2C618AB0223C97974D7D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AC9EA71FED1CED39D435505EAFC4CCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3138D38B062942B5395429B882A0B3C7 /* Pods-ViewHover_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2063781FDAF7BFAD92BAABAC13BF32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B81569B35666DE8E3E358879485026 /* MouseTrackable.swift in Sources */,
+				CD18EED89B50F0E66C2A6DE53E355E8C /* NSView+Hover.swift in Sources */,
+				CFEB846B8F35D666F08E2BFC8282815A /* ViewHover-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B497D90E0DA43F5547AF55ED9B606032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480F24B9F0255CC1A1B2BEE8F9762EE4 /* Pods-ViewHover_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73175DBB947EECDE2E873FED29B6C86F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ViewHover_Example";
+			target = 2E8B98AF889BEC32CA527BF4BA3E63F1 /* Pods-ViewHover_Example */;
+			targetProxy = 1231B968731296A8271DDD25B8706436 /* PBXContainerItemProxy */;
+		};
+		E1DDDE986280046FCFBA4161B4F0A014 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ViewHover;
+			target = 1510F1229B855A513CA72C6C47631471 /* ViewHover */;
+			targetProxy = A20F1AEFFB95B4CC8AB76E26A830BF1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D11544A90F037105AEFB5397CDC9373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53E7CC943EE3EB857A7DCE18FDAB36D8 /* Pods-ViewHover_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ViewHover_Tests/Pods-ViewHover_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-ViewHover_Tests/Pods-ViewHover_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B83BE66440F007B4C7FD9A133AF9F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A915F8196798BC9E5E2E5CA15FE91A87 /* ViewHover.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ViewHover/ViewHover-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ViewHover/ViewHover-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/ViewHover/ViewHover.modulemap";
+				PRODUCT_MODULE_NAME = ViewHover;
+				PRODUCT_NAME = ViewHover;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50EE03FCDC3FE7145DF7D137BDB299A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03D9AB72D13CFB5090C833DF0A8A86B1 /* Pods-ViewHover_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ViewHover_Example/Pods-ViewHover_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-ViewHover_Example/Pods-ViewHover_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7599BD86FD28576C20F8B9B6B5ACBEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7E7CBF42021822F08A3096F34BAB7723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19C314D63E18674102AF179DED1E8C47 /* Pods-ViewHover_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ViewHover_Tests/Pods-ViewHover_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-ViewHover_Tests/Pods-ViewHover_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0AB89DB0533D8E2B9201FA6579824B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CD45CF2602163918EE37DD90C13B8DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDE5C55424B7FACEB1C3EB91835F4637 /* ViewHover.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ViewHover/ViewHover-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ViewHover/ViewHover-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/ViewHover/ViewHover.modulemap";
+				PRODUCT_MODULE_NAME = ViewHover;
+				PRODUCT_NAME = ViewHover;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F66597E642A490AFE4560294ECB160DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5ADFF49A23F2B69C423E124CC7D1957 /* Pods-ViewHover_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ViewHover_Example/Pods-ViewHover_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-ViewHover_Example/Pods-ViewHover_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		129E674DF129DF23265E91226A1F29F2 /* Build configuration list for PBXNativeTarget "ViewHover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD45CF2602163918EE37DD90C13B8DD1 /* Debug */,
+				4B83BE66440F007B4C7FD9A133AF9F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7599BD86FD28576C20F8B9B6B5ACBEC9 /* Debug */,
+				C0AB89DB0533D8E2B9201FA6579824B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3E236241FA27123C329B531B0B637C0 /* Build configuration list for PBXNativeTarget "Pods-ViewHover_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7CBF42021822F08A3096F34BAB7723 /* Debug */,
+				2D11544A90F037105AEFB5397CDC9373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA51860D28315A01D3250C46968BEF7 /* Build configuration list for PBXNativeTarget "Pods-ViewHover_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66597E642A490AFE4560294ECB160DA /* Debug */,
+				50EE03FCDC3FE7145DF7D137BDB299A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

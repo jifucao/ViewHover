@@ -29,15 +29,15 @@
 /* Begin PBXFileReference section */
 		05816ADC245DA726E77082A4 /* Pods_ViewHover_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewHover_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF984F098E77FBD8B09A909 /* Pods-ViewHover_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewHover_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ViewHover_Tests/Pods-ViewHover_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6005FEF3B8E67B383BAA1217 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6005FEF3B8E67B383BAA1217 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		804B1BBA934BFE4601426968 /* Pods_ViewHover_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewHover_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		83BE7FF3A1A01E64EB898C63 /* ViewHover.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ViewHover.podspec; path = ../ViewHover.podspec; sourceTree = "<group>"; };
-		A5057B9FE8E971A2EDE44B78 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		83BE7FF3A1A01E64EB898C63 /* ViewHover.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ViewHover.podspec; path = ../ViewHover.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5057B9FE8E971A2EDE44B78 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A89043A42B2C6BB89F1B8491 /* Pods-ViewHover_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewHover_Example.debug.xcconfig"; path = "Target Support Files/Pods-ViewHover_Example/Pods-ViewHover_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C435CA1534B691711E0AC3EF /* Pods-ViewHover_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewHover_Tests.release.xcconfig"; path = "Target Support Files/Pods-ViewHover_Tests/Pods-ViewHover_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		ED83F67820348A760038D96B /* ViewHover_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewHover_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED83F67B20348A760038D96B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED83F67D20348A760038D96B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED83F67D20348A760038D96B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../ViewController.swift; sourceTree = "<group>"; };
 		ED83F67F20348A760038D96B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED83F68220348A760038D96B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED83F68420348A760038D96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,7 +85,6 @@
 				1FF984F098E77FBD8B09A909 /* Pods-ViewHover_Tests.debug.xcconfig */,
 				C435CA1534B691711E0AC3EF /* Pods-ViewHover_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

@@ -1,0 +1,16 @@
+PODS:
+  - ViewHover (0.1.0)
+
+DEPENDENCIES:
+  - ViewHover (from `../`)
+
+EXTERNAL SOURCES:
+  ViewHover:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ViewHover: 644d0a8ea22686ea555709269d86ffe44728a759
+
+PODFILE CHECKSUM: d9784f2249cf60463b198c1ece59114699bf4186
+
+COCOAPODS: 1.11.2
