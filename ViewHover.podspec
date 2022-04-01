@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ViewHover'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Easy hover effect on NSView'
 
 # This description is used to generate tags and improve search results.
