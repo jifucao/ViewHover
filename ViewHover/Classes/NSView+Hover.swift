@@ -23,7 +23,7 @@ public extension NSView {
     set { objc_setAssociatedObject(self, &Self._hoverLayer, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC) }
   }
   
-  func onHover(_ handler: @escaping (Bool) -> Void, option: MouseTrackOption = []) {
+  func onHover(option: MouseTrackOption = [], handler: @escaping (Bool) -> Void) {
     mouseTracker.subscribeMouseMoveEvent(option: option) { event in
       handler(event == .entered)
     }
