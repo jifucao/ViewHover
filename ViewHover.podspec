@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ViewHover'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Easy hover effect on NSView'
 
 # This description is used to generate tags and improve search results.
@@ -26,18 +26,11 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jifu' => 'jifucao@gmail.com' }
   s.source           = { :git => 'https://github.com/jifucao/ViewHover.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform = :osx
   s.osx.deployment_target = "10.10"
 
   s.source_files = 'ViewHover/Classes/**/*'
+  s.swift_version = '5.0'
 
-  # s.resource_bundles = {
-  #   'ViewHover' => ['ViewHover/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'Cocoa'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
